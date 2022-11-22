@@ -1,0 +1,17 @@
+.project{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.number{
+    color: red;
+}
+.number-task{
+    color: cadetblue;
+}
+
+@media screen and (max-width:991px) {
+    .phone{
+        margin-top: 1.5rem;
+    }
+}
