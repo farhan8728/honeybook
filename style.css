@@ -1,14 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Slabo+27px&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
 .project{
     background-color: #f6f6f6;
     border-radius: 10px;
     padding: 10px 30px;
 }
 .number{
-    color: red;
+    color: #FE612C;
 }
 .number-task{
-    color: cadetblue;
+    color: #FE612C;
 }
+
+
+
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: .25rem;
+    color: #000 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: rgba(254, 97, 44);
+}
+
+
+
+.total-bill{
+    color: #FE612C;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width:991px) {
     .phone{
